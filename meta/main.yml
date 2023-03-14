@@ -1,0 +1,13 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: Join Worker Node Role
+  author: Mohamed Salah
+  description: joining nodes to master node using kubeadm
+  galaxy_tags:
+    - K8S
+    - Kubeadm
+    - master
+    - worker
+

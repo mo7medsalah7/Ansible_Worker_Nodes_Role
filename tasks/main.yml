@@ -1,0 +1,9 @@
+#- name: Copy script that contains the join command and token for joining worker node to master
+# ansible.builtin.copy:
+#   src: /tmp/join_command.sh
+#   dest: /tmp/join_command.sh
+#   mode: '0755'
+#   remote_src: true
+
+- name: execute join command in worker node
+  shell: /tmp/join_token.sh
